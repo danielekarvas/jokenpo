@@ -1,0 +1,148 @@
+.container{
+    background-color: #82cdff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.scoreboard-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.champion-top{
+    color: #ffffff;
+    background-color: #0099ff;
+    font-size: 38px;
+    min-width: 230px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px 14px 0 0;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.scoreboard-point{
+    height: 149px;
+    min-width: 949px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:#3DCCC7;
+    background-color: #0099ff;
+    border-radius: 17px;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+
+.player-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #0099ff;
+    border-radius: 13px;
+    width: 151px;
+    height: 57px;
+    font-size: 25px;
+    font-weight: bold;
+        
+}
+.player-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0099ff;
+    background-color: white;
+    border-radius: 13px;
+    width: 90px;
+    height: 100px;
+    font-weight: 900; 
+    font-size: 65px;    
+}
+
+.separator{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.battle-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;   
+    width: 100%;
+
+}
+
+.battle-field-container{
+    width: 200%;
+    height: 200px;
+    background-color: #0099ff;
+    margin: 0 19px;
+    border-radius: 17px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field{
+    height: 100%;
+    width: 30%;
+    background-color: #dbf1ff;
+    border-radius: 17px;
+}
+
+.box-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-move{
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #0099ff;
+    border: none; 
+    font-size: 90%; 
+    justify-content: space-between;
+    margin: 5px;
+    min-width: 100px;
+}
+
+.separator-two{
+    color:#ffffff;
+    font-size: 104px;
+    font-weight: 900;
+}
+
+.buttons-down{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+    width: 113px;
+    height: 58px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #0099ff;
+    border: none; 
+    font-size: 20px; 
+    margin: 5px;
+    margin-top: 30px;
+    
+}
